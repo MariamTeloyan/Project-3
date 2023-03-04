@@ -1,0 +1,126 @@
+html {
+
+    background-color: white;
+}
+
+.intro {
+ 
+   display:inline-block;
+   vertical-align: top;
+
+}
+ 
+
+nav {
+
+    width: 73%;
+    padding: 1%;
+    display: inline-block;
+}
+
+nav ul p1 {
+
+    width: 50%;
+    margin-left: auto;
+    list-style: none;
+    color: white;
+
+}
+ 
+nav ul p2 {
+
+    width: 50%;
+    margin-left: auto;
+    list-style: none;
+    color: white;
+
+}
+
+
+nav ul li {
+    display: inline-block;
+    text-align: right;
+    list-style: none;
+    color: white;
+}
+
+
+.element logo {
+
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    display: inline-block;
+}
+
+.hero image {
+
+    height: 600px;
+    padding: 25px;
+    display: inline-block;
+    
+}
+
+
+.section content {
+
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button {
+
+    display: inline-block;
+    text-align: right;
+    color: black;
+   
+}
+
+
+h1 {
+    font-family: sans-serif;
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    
+    
+
+}
+
+h2 {
+
+    font-family: sans-serif;
+    color: white;
+    font-size: 24px;
+    text-align: right;
+}
+
+h3 {
+
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+
+footer {
+
+    background-color: #373738;
+}
+
+footer li {
+
+    display: inline-block;
+    vertical-align: top;
+    padding: center;
+    color: white;
+}
+
+footer p {
+
+    display: inline-block;
+    left: auto;
+    padding: right; 
+    color: white; 
+}
