@@ -1,126 +1,174 @@
-html {
-
-    background-color: white;
+* /* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.intro {
- 
-   display:inline-block;
-   vertical-align: top;
-
+/* STYLING THE NAVIGATION */
+header.header {
+    padding: 0 20px;
+    background: #E4EAF1;
 }
- 
-
-nav {
-
-    width: 73%;
-    padding: 1%;
-    display: inline-block;
-}
-
-nav ul p1 {
-
-    width: 50%;
-    margin-left: auto;
-    list-style: none;
-    color: white;
-
-}
- 
-nav ul p2 {
-
-    width: 50%;
-    margin-left: auto;
-    list-style: none;
-    color: white;
-
-}
-
-
-nav ul li {
-    display: inline-block;
-    text-align: right;
-    list-style: none;
-    color: white;
-}
-
-
-.element logo {
-
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-    display: inline-block;
-}
-
-.hero image {
-
-    height: 600px;
-    padding: 25px;
-    display: inline-block;
-    
-}
-
-
-.section content {
-
-    width: 500px;
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    max-width: 1260px;
     margin: 0 auto;
-    text-align: center;
+    justify-content: space-between;
 }
-
-.button {
-
-    display: inline-block;
-    text-align: right;
-    color: black;
-   
+ul.header-wrapper-nav-list {
+    display: flex;
+    gap: 20px;
 }
-
-
+img.header-logo {
+    width: 100%;
+    max-width: 120px;
+}
+a.header-wrapper-nav-link {
+    transition: all 0.3s;
+    opacity: 1;
+}
+a.header-wrapper-nav-link:hover {
+    opacity: 0.7;
+}
+/* GLOBAL STYLING */
+nav ul li {
+    list-style: none;
+}
+html {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
 h1 {
     font-family: sans-serif;
     color: black;
     font-size: 30px;
-    text-align: right;
-    
-    
-
 }
-
 h2 {
-
     font-family: sans-serif;
     color: white;
     font-size: 24px;
-    text-align: right;
 }
-
 h3 {
-
     font-family: sans-serif;
     color: white;
     font-size: 20px;
-    text-align: right;
 }
-
+/* STYLING THE HERO SECTION */
+section.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1260px;
+    margin: 0 auto;
+    gap: 20px;
+}
+img.hero-img {
+    width: 100%;
+    max-width: 540px;
+    object-fit: cover;
+}
+section.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 603px;
+}
+h1.hero-content-heading {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+p.hero-content-subheading {
+    line-height: 1.6;
+    color: #464646;
+    margin-bottom: 30px;
+}
+section.hero {
+    padding: 50px 20px;
+    background: white;
+}
+a.hero-content-btn {
+    background: #0659D7;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+a.hero-content-btn:hover {
+    background: #0449B1;
+}
+/* STYLING SECOND SECTION */
+section.hero-two {
+    padding: 50px 20px;
+    background: #F9F9F9;
+}
+/* STYLING THE FOOTER */
 footer {
-
-    background-color: #373738;
+    background-color: #02122A;
+    padding: 40px;
+}
+section.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+p.footer-phone-text {
+    color: #FFFFFF;
+}
+a.footer-phone-link {
+    color: #FFFFFF;
+}
+p.footer-email-text {
+    color: #FFFFFF;
+}
+a.footer-email-link {
+    color: #FFFFFF;
+}
+p.copyright {
+    color: #FFFFFF;
+}
+@media (max-width: 970px) {
+    section.hero-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    section.hero-content {
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 500px) {
+    h1.hero-content-heading {
+        font-size: 60px;
+    }
+    h4.hero-content-subheading {
+        font-size: 24px;
+    }
+    section.footer-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+    }
 }
 
-footer li {
 
-    display: inline-block;
-    vertical-align: top;
-    padding: center;
-    color: white;
-}
 
-footer p {
 
-    display: inline-block;
-    left: auto;
-    padding: right; 
-    color: white; 
-}
+
+
+
+
+
+
+
+
+
+
